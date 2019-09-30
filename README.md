@@ -2,7 +2,7 @@
 
 
 
-Inicializando o projeto:
+Inicializando o projeto (React + React Native + Node):
 
 1. Instalação do Node (Versão LTS) <br>
 1.1 Other downloads -> Installing Node.js via package manager -> Windows -> Chocolatey (Gerenciador de pacotes) -> Install -> (Após ter instalado o chocolatey) cinst nodejs.install --version 10.16.3
