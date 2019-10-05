@@ -25,7 +25,7 @@ Inicializando o projeto (React + React Native + Node):
 9. adicionar uma nova dependência do mongodb: yarn add mongoose 
 10. Verificar se você tem acesso a porta do mongo: http://portquiz.net:27017 
 11. Instalar uma lib que permite gerenciar o recebimento de arquivos multipart (para enviarmos imagens ao backend): yarn add multer
-
+12. Header é responsável por realizar a autenticação do usuário (para que ele nao seja enviado mais de uma vez)
 
 
 // GIT COMMIT -m -S         EMITE COMMITS COM O SINAL DE CERTIFICADO, ou seja, de uma fonte confiável    <br>https://help.github.com/en/articles/telling-git-about-your-signing-key
