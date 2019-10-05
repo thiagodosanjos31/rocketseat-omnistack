@@ -28,6 +28,12 @@ Inicializando o projeto (React + React Native + Node):
 12. Header é responsável por realizar a autenticação do usuário (para que ele nao seja enviado mais de uma vez)
 
 
+********** AULA 3 **********
+1. npx create-react-app frontend
+2. yarn start (deixe o backend rodando com yarn dev)
+3. ********** MINUTO 10:17 da aula 3 **********
+
+
 // GIT COMMIT -m -S         EMITE COMMITS COM O SINAL DE CERTIFICADO, ou seja, de uma fonte confiável    <br>https://help.github.com/en/articles/telling-git-about-your-signing-key
 <br>https://help.github.com/en/articles/signing-commits
 
