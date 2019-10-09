@@ -31,8 +31,14 @@ Inicializando o projeto (React + React Native + Node):
 ********** AULA 3 **********
 1. npx create-react-app frontend
 2. yarn start (deixe o backend rodando com yarn dev)
-3. ********** MINUTO 10:17 da aula 3 **********
-
+3. componente: é uma função que retorna um HTML
+4. todo lugar que a gente for usar html dentro do jsx, é necessário incluir o react
+5. Usar max-width com o tamanho da largura e o width 100% para que seja responsivo quando a tela diminuir
+6. Utilizaremos axios para chamadas api -> yarn add axios
+7. React usa programação declarativa, ou seja, devemos definir como vamos querer alguma informação
+8. O estado é qualquer informação que vamos armazenar dentro de um componente
+9. no backend adicionar uma dependência CORS -> yarn add cors (para permitir acesso de outros browsers)
+9. ************* 46:15 VIDEO AULA 3 ****************
 
 // GIT COMMIT -m -S         EMITE COMMITS COM O SINAL DE CERTIFICADO, ou seja, de uma fonte confiável    <br>https://help.github.com/en/articles/telling-git-about-your-signing-key
 <br>https://help.github.com/en/articles/signing-commits
