@@ -38,7 +38,10 @@ Inicializando o projeto (React + React Native + Node):
 7. React usa programação declarativa, ou seja, devemos definir como vamos querer alguma informação
 8. O estado é qualquer informação que vamos armazenar dentro de um componente
 9. no backend adicionar uma dependência CORS -> yarn add cors (para permitir acesso de outros browsers)
-9. ************* 46:15 VIDEO AULA 3 ****************
+10. Instalar um módulo de rotas: yarn add react-router-dom
+11. Importante: caso não salvar novamente o routes, por mais que você atualize os componentes, a página não
+será renderizada.
+---> PAREI NA HORA 1:00:46
 
 // GIT COMMIT -m -S         EMITE COMMITS COM O SINAL DE CERTIFICADO, ou seja, de uma fonte confiável    <br>https://help.github.com/en/articles/telling-git-about-your-signing-key
 <br>https://help.github.com/en/articles/signing-commits
