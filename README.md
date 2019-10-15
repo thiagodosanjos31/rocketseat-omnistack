@@ -13,7 +13,19 @@ git clone git@github.com:thiagodosanjos31/rocketseat-omnistack.git
 ```shell 
 cd rocketseat-omnistack
 ```
-* Instale as dependências 
+* Acesse o backend
+```shell
+cd backend
+```
+* Instale as dependências
+```shell
+yarn install
+```
+* Saia da pasta backend e acesse a pasta frontend
+```shell
+cd../frontend
+```
+* Instale as dependências do frontend
 ```shell
 yarn install
 ```
