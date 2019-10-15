@@ -3,6 +3,8 @@ const mongoose = require('mongoose');
 const routes = require('./routes');
 const app = express();
 const cors = require('cors');
+const path = require('path');
+
 
 mongoose.connect('mongodb+srv://thiagoa:thiagoa@omnistack-h82rc.mongodb.net/semana09?retryWrites=true&w=majority', {
     useNewUrlParser: true,
@@ -16,6 +18,7 @@ mongoose.connect('mongodb+srv://thiagoa:thiagoa@omnistack-h82rc.mongodb.net/sema
 //para que o sistema entenda o formato json devemos incluir o código da linha abaixo
 app.use(cors());
 app.use(express.json());
+app.use('/files', express.static(path.resolve(__dirname, '..', 'uploads')));
 app.use(routes);
 
 

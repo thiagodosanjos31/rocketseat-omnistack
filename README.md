@@ -1,50 +1,10 @@
 # Rocketseat-omnistack
 
+É um projeto que foi desenvolvido durante o bootcamp online e gratuito fornecido pela Rocketseat com o intuito de difundir conhecimento no uso das tecnologias mais modernas do mercado, como Node, React e React Native. A ideia básica do projeto consiste em fornecer uma plataforma onde desenvolvedores possam alugar espaço e mentoria de empresas de tecnologias.
 
+### Getting started
 
-Inicializando o projeto (React + React Native + Node):
-********** AULA 1 **********  
-1. Instalação do Node (Versão LTS) <br>
-1.1 Other downloads -> Installing Node.js via package manager -> Windows -> Chocolatey (Gerenciador de pacotes) -> Install -> (Após ter instalado o chocolatey) cinst nodejs.install --version 10.16.3
-<br>// node -v : para verificar a versão atual do node
-2. Instalação do Yarn  <br>// funciona como o NPM<br>
-2.1 choco install yarn <br>// CINST = CHOCO INSTALL
-3. Instalação do Visual Studio Code
-3.1 instalar plugins: Dracula Official (set color theme), Material Icon Theme, Rocketseat React Native, Fira Code (No github, procurar por Download, abrir a pasta ttf e dar um duplo clique, No VSC: code, preferences, settings, json (icone do arquivo), incluir as informações: "editor.fontFamily": "Fira Code", "editor.fontligatures": true )
-
-********** AULA 2 ********** 
---> BACKEND 
-1. yarn init -y (para iniciar o seu repositório)
-2. package.json: arquivo de configurações responsavel por armazenar as dependências (CTRL + ': abrir terminal)
-3. No backend: yarn add express
-4. Para iniciar a aplicação basta, na pasta backend, dar um node: src/server.js
-5. Instalar dependência Nodemon através do comando -> yarn add nodemon -D (ele serve para verificar se houve alterações e reiniciará o servidor)
-6. Para rodar sua aplicação na porta definida no server.js basta dar um yarn dev (ou npm run dev se você estiver utilizando o node)
-7. Para analisar rotas, nesse curso iremos utilizar a ferramenta Insomnia Rest (ou postman caso vc nao tenha um sistema que suporte 64bits+)
-8. Ferramenta: MongoDB Atlás (realizar o cadastro e as configurações de um servidor gratuito)
-9. adicionar uma nova dependência do mongodb: yarn add mongoose 
-10. Verificar se você tem acesso a porta do mongo: http://portquiz.net:27017 
-11. Instalar uma lib que permite gerenciar o recebimento de arquivos multipart (para enviarmos imagens ao backend): yarn add multer
-12. Header é responsável por realizar a autenticação do usuário (para que ele nao seja enviado mais de uma vez)
-
-
-********** AULA 3 **********
-1. npx create-react-app frontend
-2. yarn start (deixe o backend rodando com yarn dev)
-3. componente: é uma função que retorna um HTML
-4. todo lugar que a gente for usar html dentro do jsx, é necessário incluir o react
-5. Usar max-width com o tamanho da largura e o width 100% para que seja responsivo quando a tela diminuir
-6. Utilizaremos axios para chamadas api -> yarn add axios
-7. React usa programação declarativa, ou seja, devemos definir como vamos querer alguma informação
-8. O estado é qualquer informação que vamos armazenar dentro de um componente
-9. no backend adicionar uma dependência CORS -> yarn add cors (para permitir acesso de outros browsers)
-10. Instalar um módulo de rotas: yarn add react-router-dom
-11. Importante: caso não salvar novamente o routes, por mais que você atualize os componentes, a página não
-será renderizada.
----> PAREI NA HORA 1:00:46
-
-// GIT COMMIT -m -S         EMITE COMMITS COM O SINAL DE CERTIFICADO, ou seja, de uma fonte confiável    <br>https://help.github.com/en/articles/telling-git-about-your-signing-key
-<br>https://help.github.com/en/articles/signing-commits
-
-
-//PAREI EM 01:06:00 da segunda AULA (VERIFICAR PQ SALVOU O ARQUIVO COMO UNDEFINED)
+* Instalação do Yarn (ou node) <a href="https://yarnpkg.com/en/docs/install#windows-stable">(Clique aqui)</a>
+* Instalar as dependências do package.json
+* Na pasta Backend: yarn dev
+* Na pasta Frontend: yarn start
