@@ -29,11 +29,11 @@ cd../frontend
 ```shell
 yarn install
 ```
-* Na pasta Backend:
+* Abra dois terminais, em um você deverá acessar a pasta Backend e executar:
 ```shell 
 yarn dev
 ```
-* Na pasta Frontend: 
+* No outro, dentro da pasta Frontend, execute:
 ```shell
 yarn start 
 ```
