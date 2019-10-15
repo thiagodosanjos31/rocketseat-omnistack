@@ -4,7 +4,9 @@
 
 ### Getting started
 
-* Instalação do Yarn (ou node) <a href="https://yarnpkg.com/en/docs/install#windows-stable">(Clique aqui)</a>
-* Instalar as dependências do package.json
+* Instale o Yarn (ou node) <a href="https://yarnpkg.com/en/docs/install#windows-stable">Clique aqui</a> caso ainda não tenha o Yarn instalado.
+* Clone o repositório (git clone git@github.com:thiagodosanjos31/rocketseat-omnistack.git)
+* Acesse a pasta criada (cd rocketseat-omnistack)
+* Instale as dependências (para isse utilize yarn install)
 * Na pasta Backend: yarn dev
-* Na pasta Frontend: yarn start
+* Na pasta Frontend: yarn start -> Teremos um servidor rodando em http://localhost:3000/
