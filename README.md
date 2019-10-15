@@ -4,10 +4,10 @@
 
 ### Getting started
 
-* Instale o Yarn (ou node) <a href="https://yarnpkg.com/en/docs/install#windows-stable">Clique aqui</a> caso ainda não tenha o Yarn instalado.
+* Instale o Yarn (ou node) <br><a href="https://yarnpkg.com/en/docs/install#windows-stable">Clique aqui</a> caso ainda não tenha o Yarn instalado.
 * Clone o repositório 
 ```shell
-(git clone git@github.com:thiagodosanjos31/rocketseat-omnistack.git)
+git clone git@github.com:thiagodosanjos31/rocketseat-omnistack.git
 ```
 * Acesse a pasta criada
 ```shell 
@@ -25,4 +25,5 @@ yarn dev
 ```shell
 yarn start 
 ```
--> Teremos um servidor rodando em http://localhost:3000/
+<hr>
+Teremos um servidor rodando em http://localhost:3000/
